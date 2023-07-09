@@ -1,13 +1,22 @@
-def check_line_length(file_path):
-    with open(file_path, 'r') as file:
-        lines = file.readlines()
+from operator import attrgetter
+from typing import List
 
-    for idx, line in enumerate(lines, start=1):
-        line = line.rstrip('\n')
-        if len(line) > 79:
-            print(f"Line {idx}: S001 Too long")
+from linter_task import LinterError, LINTER_TASKS
 
 
-file_path = input()
+def main():
+    file_path = input()
+    errors: List[LinterError] = []
+    with open(file_path, 'r') as f:
+        text = f.readlines()
+    for task in LINTER_TASKS:
+        errors.extend(LinterError(task.code, task.message, n)
+                      for n in task.exec(text))
 
-check_line_length(file_path)
+    if errors:
+        errors.sort(key=attrgetter('line_number', 'code'))
+        print(*errors, sep='\n')
+
+
+if __name__ == '__main__':
+    main()

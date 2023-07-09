@@ -1,0 +1,26 @@
+type: matching
+captions:
+- 32<br>4
+- 12<br>2
+- 66<br>3
+- 75<br>25
+options:
+- "AssertionError: Your number is more than 14 or equal to 14!"
+- Your number is 6.0
+- "AssertionError: Your number is less than 5 or equal to 5!"
+- Your number is 8.0
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10375#comment
+status: Solved
+record: -1
+ordering:
+- 0
+- 1
+- 2
+- 3

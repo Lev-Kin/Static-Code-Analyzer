@@ -3,14 +3,14 @@ hyperskill_project:
   ide_files: https://cogniterra.org/media/attachments/lesson/24956/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Thu, 01 Jan 1970 00:00:00 UTC"
+update_date: "Sun, 09 Jul 2023 05:29:03 UTC"
 stages:
 - id: 609
   step: 9903
   is_completed: true
 - id: 610
   step: 9904
-  is_completed: false
+  is_completed: true
 - id: 611
   step: 9905
   is_completed: false
@@ -208,10 +208,10 @@ topics:
     theory_id: 7545
   - title: os module
     theory_id: 11119
-  - title: Docstrings
-    theory_id: 11869
   - title: Unit testing in Python
     theory_id: 10795
+  - title: Docstrings
+    theory_id: 11869
   - title: Pydoc
     theory_id: 18505
   - title: Command line arguments
