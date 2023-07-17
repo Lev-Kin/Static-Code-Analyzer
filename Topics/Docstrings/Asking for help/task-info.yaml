@@ -1,0 +1,17 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: import os.path
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11875#comment
+status: Solved
+feedback:
+  message: |-
+    <html>Passed. Help on function isdir in module genericpath:
+
+    isdir(s)
+        Return true if the pathname refers to an existing directory.</html>
+  time: "Fri, 14 Jul 2023 07:53:36 UTC"
+record: -1
+submission_language: python3

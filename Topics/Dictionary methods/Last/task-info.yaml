@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: false
 options:
+- text: <code>'bachelor'</code>
 - text: "<code>{'specialty': 'biology'}</code>"
 - text: "<code>('degree', 'bachelor')</code>"
 - text: <code>'biology'</code>
-- text: <code>'bachelor'</code>
 files:
 - name: main.py
   visible: true

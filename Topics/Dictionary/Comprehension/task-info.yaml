@@ -1,8 +1,8 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: <code>empty_dict = dict()</code>
 - text: "<code>empty_dict = []</code>"
+- text: <code>empty_dict = dict()</code>
 - text: "<code>empty_dict = dict{}</code>"
 - text: "<code>empty_dict = {}</code>"
 files:
