@@ -22,3 +22,11 @@ content:
 - Docstrings
 - Function annotations
 - Nested lists
+- Command line arguments
+- Tuple
+- Regexps in Python
+- Escaping in regexps
+- Regexp sets and ranges
+- Shorthands
+- Methods and attributes
+- Regexp quantifiers

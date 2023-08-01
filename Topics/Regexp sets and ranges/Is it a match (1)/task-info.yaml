@@ -1,0 +1,27 @@
+type: matching
+custom_name: Is it a match?
+captions:
+- "It's a match[!?^]\\?"
+- "It's a match[^!?]\\?"
+- "It's a match[.*\\]]?"
+- "It's a match[[-`-]\\?"
+options:
+- It's a match$?
+- It's a match??
+- It's a match-?
+- It's a match
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10038#comment
+status: Solved
+record: -1
+ordering:
+- 0
+- 1
+- 2
+- 3

@@ -1,0 +1,26 @@
+type: matching
+captions:
+- <code>\S</code>
+- <code>\s</code>
+- <code>\D</code>
+- <code>\w</code>
+options:
+- "<code>[ \\t\\n\\r\\f\\v]</code>"
+- "<code>[a-zA-Z0-9_]</code>"
+- "<code>[^ \\t\\n\\r\\f\\v]</code>"
+- "<code>[^0-9]</code>"
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10145#comment
+status: Solved
+record: -1
+ordering:
+- 0
+- 1
+- 2
+- 3
