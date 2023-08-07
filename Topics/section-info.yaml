@@ -30,3 +30,6 @@ content:
 - Shorthands
 - Methods and attributes
 - Regexp quantifiers
+- Custom generators
+- ast module
+- How to read the documentation
